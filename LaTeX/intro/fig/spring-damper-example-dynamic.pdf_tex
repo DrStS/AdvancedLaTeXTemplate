@@ -1,0 +1,69 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'spring-damper-example-dynamic.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{255.11811523bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3444444)%
+    \put(0,0){\includegraphics[width=\unitlength]{spring-damper-example-dynamic.pdf}}%
+    \put(0.55593438,0.14044639){\color[rgb]{0,0.6,0.54509804}\rotatebox{-0.20071154}{\makebox(0,0)[b]{\smash{interface}}}}%
+    \put(0.14017929,0.25433411){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$k_1$}}}%
+    \put(0.3492029,0.25433411){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$k_2$}}}%
+    \put(0.34552976,0.06807529){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{domain 1}}}%
+    \put(0.75827556,0.06933424){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{domain 2}}}%
+    \put(0.22205658,0.23213741){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$m_1$}}}%
+    \put(0.13650969,0.08306658){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d_1$}}}%
+    \put(0.43645248,0.23213741){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$m_2$}}}%
+    \put(0.6686632,0.23213741){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d_2$}}}%
+    \put(0.72747521,0.23213741){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$m_3$}}}%
+    \put(0.8604592,0.25433411){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$k_3$}}}%
+    \put(0.27326228,0.32851094){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$u$}}}%
+    \put(0.50531166,0.32851094){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$v_1$}}}%
+    \put(0.63074375,0.32851094){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$v_2$}}}%
+    \put(0.78126224,0.32851094){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$w$}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,71 @@
+\input{phd_thesis_sts_preamble}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% S T A R T I N G %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%  D O K U M E N T  %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\includeonly{intro/intro}
+\begin{document}
+%\\%%%%%%%%%%%%%%%%%% TITLEPAGE %%%%%%%%%%%%%%%%%%%%%
+\frontmatter% numbering a, b, c
+\selectlanguage{USenglish}
+\input{input/titlepage}
+%//%%%%%%%%%%%%%%%%%% TITLEPAGE %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%% Acknowledgments & ABSTRACT %%%%%%%%%%%%%%
+\input{input/abstract}
+\selectlanguage{USenglish}%
+\input{input/dedication}
+%//%%%%%%%% Acknowledgments & ABSTRACT %%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% NOM %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{input/abbreviation}
+\cleardoublepage
+%//%%%%%%%%%%%%%%%%%% NOM %%%%%%%%%%%%%%%%%%%%%%%%%%%  
+%\\%%%%%%%%%%%%%%%%%% TOC %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\microtypesetup{protrusion=false} % disables protrusion locally in the document
+\tableofcontents % prints Table of Contents
+\microtypesetup{protrusion=true}  % enables protrusion
+\mainmatter% numbering arabic 
+%//%%%%%%%%%%%%%%%%%% TOC %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 1 %%%%%%%%%%%%%%%%%%%%%
+\include{intro/intro}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 1 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 2 %%%%%%%%%%%%%%%%%%%%%
+%\include{...}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 2 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 3 %%%%%%%%%%%%%%%%%%%%%
+%\include{...}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 3 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 4 %%%%%%%%%%%%%%%%%%%%%
+%\include{...}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 4 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 5 %%%%%%%%%%%%%%%%%%%%%
+%\include{...}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 5 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% CHAPTER 6 %%%%%%%%%%%%%%%%%%%%%
+%\include{...}
+%//%%%%%%%%%%%%%%%%%% CHAPTER 6 %%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\begingroup
+\makeatletter
+\let\ps@plain\ps@empty
+\appendixpage*
+\makeatother
+\endgroup
+%\\%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%
+\include{appendix/appendix}
+%//%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%
+\backmatter % no chapter numbering
+%\\%%%%%%%%%%%%%%%%%%%%% LISTS %%%%%%%%%%%%%%%%%%%%%%
+%\listoffigures
+%\listoftables
+%\listofalgorithms
+%//%%%%%%%%%%%%%%%%%%%% LISTS %%%%%%%%%%%%%%%%%%%%%%%
+%\\%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%
+\nocite{*} %Even non-cited BibTeX-Entries will be shown.
+\printbibliography[heading=bibintoc] 
+%//%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%   E N D I N G   %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%  D O K U M E N T  %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

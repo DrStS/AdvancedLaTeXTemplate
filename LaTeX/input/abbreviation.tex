@@ -1,0 +1,81 @@
+\cleardoublepage   % korrekter Name für Symbolverzeichnis in der Kopfzeile
+\markboth{\nomname}{\nomname}
+\addcontentsline{toc}{chapter}{\nomname}
+\printnomenclature
+
+
+%%%%% Überschriften im Symbolverzeichnis
+\nomenclature[a$\a_$]{\textbf{Greek letters}}{\nomnorefpage}
+\nomenclature[a$_$]{\textbf{Mathematical symbols}}{\nomnorefpage}
+\nomenclature[a$#$]{\textbf{Calligraphic letters}}{\nomnorefpage}
+\nomenclature[a$`$]{\textbf{Latin letters}}{\nomnorefpage}
+\nomenclature[a+]{\textbf{Abbreviations:}}{\nomnorefpage}
+
+%%%%%% Definition of entries in the symbol list unpaged %%%%%%%%
+%% Latin
+\nomenclature[a$I$]{$\vectorsym{I}$}{identity matrix\nomnorefpage}
+\nomenclature[a$Y$]{${}^{m}Y_{i}^{n}$}{output of subsystem $i$ at time step $n$ at iteration $m$ (scalar)\nomnorefpage}
+\nomenclature[a$Y$]{${}^{m}\vectorsym{Y}_{i}^{n}$}{output of subsystem $i$ at time step $n$ at iteration $m$ (vector)\nomnorefpage}
+\nomenclature[a$X$]{${}^{m}X_{i}^{n}$}{state of subsystem $i$ at time step $n$ at iteration $m$ (scalar)\nomnorefpage}
+\nomenclature[a$X$]{${}^{m}\vectorsym{X}_{i}^{n}$}{state of subsystem $i$ at time step $n$ at iteration $m$ (vector)\nomnorefpage}
+\nomenclature[a$U$]{${}^{m}U_{i}^{n}$}{input of subsystem $i$ at time step $n$ at iteration $m$ (scalar)\nomnorefpage}
+\nomenclature[a$U$]{${}^{m}\vectorsym{U}_{i}^{n}$}{input of subsystem $i$ at time step $n$ at iteration $m$ (vector)\nomnorefpage}
+\nomenclature[a$E$]{$E$}{Young's modulus\nomnorefpage}
+\nomenclature[a$c_{\mathrm{L}}$]{$c_{\mathrm{L}}$}{lift coefficient\nomnorefpage}
+\nomenclature[a$c_{\mathrm{D}}$]{$c_{\mathrm{D}}$}{drag coefficient\nomnorefpage}
+\nomenclature[a$c_{\mathrm{P}}$]{$c_{\mathrm{P}}$}{pressure coefficient\nomnorefpage}
+
+%%Calligraphic
+\nomenclature[a$#E$]{$\mathcal E()$}{extrapolation operator for next time step\nomnorefpage}
+\nomenclature[a$#S$]{$\mathcal S_{i}()$}{operator of subsystem $i$\nomnorefpage}
+\nomenclature[a$#R$]{$\leftidx{^{m}}{\mathcal R}_{i}^{n}$}{residual associated with input $i$ at time step $n$ at iteration $m$ (scalar)\nomnorefpage}
+\nomenclature[a$#R$]{$\leftidx{^{m}}{\mathbfcal R}_{i}^{n}$}{residual associated with input $i$ at time step $n$ at iteration $m$ (vector)\nomnorefpage}
+\nomenclature[a$#E$]{$\mathcal I_i()$}{interface constraint operator for interface constraint $i$}\nomnorefpage
+\nomenclature[a$#E$]{$\mathcal J()$}{Jacobian extraction operator}\nomnorefpage
+
+%% Greek
+\nomenclature[a$\pi$]{$\pi$}{$\approx \numprint{3.141592653589793}$\nomnorefpage}
+\nomenclature[a$\nu$]{$\nu$}{kinematic viscosity\nomnorefpage}
+\nomenclature[a$\mu$]{$\mu$}{dynamic viscosity\nomnorefpage}
+\nomenclature[a$\rho$]{$\rho$}{spectral radius\nomnorefpage}
+\nomenclature[a$\lambda$]{$\lambda$}{eigenvalue\nomnorefpage}
+\nomenclature[a$\varrho$]{$\varrho$}{density\nomnorefpage}
+\nomenclature[a$\varepsilon$]{$\varepsilon$}{Hencky strain\nomnorefpage}
+\nomenclature[a$\omega$]{$\omega$}{eigenfrequency\nomnorefpage}
+\nomenclature[a$\omega_{\mathrm{d}}$]{$\omega_{\mathrm{d}}$}{damped eigenfrequency\nomnorefpage}
+
+%% Math
+\nomenclature[a$_aa$]{$\partial$}{operator for partial derivative\nomnorefpage}
+\nomenclature[a$_a$]{$\Sigma$}{sum\nomnorefpage}
+\nomenclature[a$_R$]{$\mathbb{R}$}{set of real numbers\nomnorefpage}
+\nomenclature[a$_d$]{$\delta$}{first variation\nomnorefpage}
+\nomenclature[a$_N$]{$\left\Vert ~ \right\Vert_2$}{euclidean norm\nomnorefpage}
+\nomenclature[a$_N$]{$\left\Vert ~ \right\Vert_\mathrm{max}$}{maximum norm\nomnorefpage}
+
+%%Abkürzungen
+\nomenclature{NASA}{National Aeronautics and Space Administration\nomnorefpage}
+\nomenclature{NREL}{National Renewable Energy Laboratory\nomnorefpage}
+\nomenclature{IJCSA}{Interface Jacobian-based Co-Simulation Algorithm\nomnorefpage}
+\nomenclature{TUM}{Technische Universität München (University of Technology, Munich)\nomnorefpage}
+\nomenclature{GS}{Gauss-Seidel\nomnorefpage}
+\nomenclature{JC}{Jacobi\nomnorefpage}
+\nomenclature{CAD}{Computer-Aided Design\nomnorefpage}
+\nomenclature{CFD}{Computational Fluid Dynamics\nomnorefpage}
+\nomenclature{CSM}{Computational Structural Mechanics\nomnorefpage}
+\nomenclature{DOF}{degree of freedom\nomnorefpage}
+\nomenclature{DOFs}{degrees of freedom\nomnorefpage}
+\nomenclature{ODE}{ordinary differential equation\nomnorefpage}
+\nomenclature{DAE}{differential algebraic equation\nomnorefpage}
+\nomenclature{GSE}{Global Sensitivity Equation\nomnorefpage}
+\nomenclature[Re]{$\Reyn$}{Reynolds number\nomnorefpage}
+\nomenclature[St]{$\Strn$}{Strouhal number\nomnorefpage}
+\nomenclature{ALE}{Arbitrary Lagrangian Eulerian\nomnorefpage}
+\nomenclature{FSI}{fluid-structure interaction\nomnorefpage}
+\nomenclature{FEM}{finite element method\nomnorefpage}
+\nomenclature{PID}{proportional-integral-derivative\nomnorefpage}
+\nomenclature{URANS}{unsteady Reynolds averaged Navier-Stokes\nomnorefpage}
+\nomenclature{PDAE}{partial differential algebraic equations\nomnorefpage}
+\nomenclature{CSE}{Co-Simulation Engine\nomnorefpage}
+\nomenclature{BDF2}{Second Order Backward Differentiation Formula\nomnorefpage}
+\nomenclature{JFNK}{Jacobian-free Newton-Krylov\nomnorefpage}
+\nomenclature{GMRES}{generalized minimal residual\nomnorefpage}
